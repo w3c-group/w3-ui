@@ -205,6 +205,9 @@ export default {
       if (this.dialogContent === 'uploadImage') {
         this.initAuctionImageOss()
       }
+      setTimeout(() => {
+        dialog.show()
+      }, 10)
     })
   },
   methods: {
